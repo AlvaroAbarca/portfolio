@@ -13,13 +13,17 @@ importers:
         version: 0.9.4(typescript@5.7.2)
       '@astrojs/cloudflare':
         specifier: ^12.5.3
-        version: 12.5.3(@types/node@22.10.1)(astro@5.7.13(@types/node@22.10.1)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1))(yaml@2.6.1)
+        version: 12.5.3(@types/node@22.15.21)(astro@5.7.13(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1))(yaml@2.6.1)
       astro:
         specifier: ^5.7.13
-        version: 5.7.13(@types/node@22.10.1)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1)
+        version: 5.7.13(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
+    devDependencies:
+      '@types/node':
+        specifier: ^22.15.21
+        version: 22.15.21
 
 packages:
 
@@ -607,8 +611,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.10.1':
-    resolution: {integrity: sha512-qKgsUwfHZV2WCWLAnVP1JqnpE6Im6h3Y0+fYgMTasNQ7V++CBX5OT1as0g0f+OyubbFqhf6XVNIsmN4IIhEgGQ==}
+  '@types/node@22.15.21':
+    resolution: {integrity: sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1596,8 +1600,8 @@ packages:
   uncrypto@0.1.3:
     resolution: {integrity: sha512-Ql87qFHB3s/De2ClA9e0gsnS6zXG27SkTiSJwjCc9MebbfapQfuPzumMIUMi38ezPZVNFcHI9sUIepeQfw8J8Q==}
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
   undici@5.29.0:
     resolution: {integrity: sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==}
@@ -1995,14 +1999,14 @@ snapshots:
       - prettier
       - prettier-plugin-astro
 
-  '@astrojs/cloudflare@12.5.3(@types/node@22.10.1)(astro@5.7.13(@types/node@22.10.1)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1))(yaml@2.6.1)':
+  '@astrojs/cloudflare@12.5.3(@types/node@22.15.21)(astro@5.7.13(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1))(yaml@2.6.1)':
     dependencies:
       '@astrojs/internal-helpers': 0.6.1
       '@astrojs/underscore-redirects': 0.6.1
       '@cloudflare/workers-types': 4.20250520.0
-      astro: 5.7.13(@types/node@22.10.1)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1)
+      astro: 5.7.13(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1)
       tinyglobby: 0.2.13
-      vite: 6.3.5(@types/node@22.10.1)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.21)(yaml@2.6.1)
       wrangler: 4.16.0(@cloudflare/workers-types@4.20250520.0)
     transitivePeerDependencies:
       - '@types/node'
@@ -2466,7 +2470,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 22.10.1
+      '@types/node': 22.15.21
 
   '@types/hast@3.0.4':
     dependencies:
@@ -2482,9 +2486,9 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.10.1':
+  '@types/node@22.15.21':
     dependencies:
-      undici-types: 6.20.0
+      undici-types: 6.21.0
 
   '@types/unist@3.0.3': {}
 
@@ -2582,7 +2586,7 @@ snapshots:
     dependencies:
       printable-characters: 1.0.42
 
-  astro@5.7.13(@types/node@22.10.1)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1):
+  astro@5.7.13(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.7.2)(yaml@2.6.1):
     dependencies:
       '@astrojs/compiler': 2.12.0
       '@astrojs/internal-helpers': 0.6.1
@@ -2636,8 +2640,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.16.0
       vfile: 6.0.3
-      vite: 6.3.5(@types/node@22.10.1)(yaml@2.6.1)
-      vitefu: 1.0.6(vite@6.3.5(@types/node@22.10.1)(yaml@2.6.1))
+      vite: 6.3.5(@types/node@22.15.21)(yaml@2.6.1)
+      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.21)(yaml@2.6.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.2
@@ -3847,7 +3851,7 @@ snapshots:
 
   uncrypto@0.1.3: {}
 
-  undici-types@6.20.0: {}
+  undici-types@6.21.0: {}
 
   undici@5.29.0:
     dependencies:
@@ -3954,7 +3958,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.3.5(@types/node@22.10.1)(yaml@2.6.1):
+  vite@6.3.5(@types/node@22.15.21)(yaml@2.6.1):
     dependencies:
       esbuild: 0.25.4
       fdir: 6.4.4(picomatch@4.0.2)
@@ -3963,13 +3967,13 @@ snapshots:
       rollup: 4.41.0
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.10.1
+      '@types/node': 22.15.21
       fsevents: 2.3.3
       yaml: 2.6.1
 
-  vitefu@1.0.6(vite@6.3.5(@types/node@22.10.1)(yaml@2.6.1)):
+  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.21)(yaml@2.6.1)):
     optionalDependencies:
-      vite: 6.3.5(@types/node@22.10.1)(yaml@2.6.1)
+      vite: 6.3.5(@types/node@22.15.21)(yaml@2.6.1)
 
   volar-service-css@0.0.62(@volar/language-service@2.4.10):
     dependencies:

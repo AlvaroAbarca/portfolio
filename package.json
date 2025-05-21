@@ -13,5 +13,8 @@
     "@astrojs/cloudflare": "^12.5.3",
     "astro": "^5.7.13",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21"
   }
 }
